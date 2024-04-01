@@ -17,14 +17,14 @@
         $username = $_REQUEST["username"];
         
         # insert query execution ---
-                
-        $query = "insert into employee values("$username","$password")";
+        
+        $query = "INSERT INTO employee(username, password) VALUES (".$username.",".$password.")";
         
         $result = mysqli_query($connect,$query);
         
         if (mysqli_num_rows($result) > 0) {
-        
-            header("<div class='h2 text-center text-danger my-5'> Successfully (connect heart) </div>");
+                                
+            header("location:../index.php");
         
         }   else {
             

@@ -1,3 +1,11 @@
+<?php
+    session_start();
+
+    if (isset($_SESSION['isSecure']))
+    {
+        header("Location: welcome.php");
+    }
+?>
 <!DOCTYPE html>
 <!--
 -   PHP_login

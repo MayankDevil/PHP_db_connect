@@ -31,7 +31,7 @@
 
             <div class="col-5">
                 
-                <form action="./backend/data_insert.php" class="my-5 p-3">
+                <form action="./backend/validation.php" class="my-5 p-3">
                 
                     <!-- form title -->
                     <div class="h1 pb-5"> Evil-Corp <span class="h5 text-muted"> pure employment </span> </div>
